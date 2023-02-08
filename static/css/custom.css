@@ -1,0 +1,71 @@
+/* générale */
+
+/*Couleur du théme principale::
+
+ color rouge:          #A60321/
+ color bleu claire:    #034AA6/3,74,166
+ color bleu marine:    #023373/2,51,115
+ color orange claire : #F28705/242,135,5
+ color orange foncé:   #F25C05/242,92,5
+
+ POLICE:
+
+ font-family: alex-brush, sans-serif;
+ */
+
+/* body
+{
+  background-color: #ECEFF1;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+*/
+
+custom-color {
+  background-color: blue;
+}
+nav {
+  height: 100px;
+  background: rgb(2, 51, 115);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 51, 115, 1) 25%,
+    rgba(3, 74, 166, 1) 57%
+  ) !important;
+}
+nav ul a {
+  color: #f28705;
+}
+.side-nav {
+  background: rgb(2, 0, 36) !important;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(3, 74, 166, 1) 51%,
+    rgba(2, 51, 115, 1) 100%
+  ) !important;
+}
+.side-nav li > a {
+  color: #f25c05;
+}
+
+/* footer */
+.page-footer {
+  height: 100px;
+  background: rgb(2, 51, 115);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 51, 115, 1) 25%,
+    rgba(3, 74, 166, 1) 57%
+  ) !important;
+}
+.img-logo {
+  width: 50px !important;
+}
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
